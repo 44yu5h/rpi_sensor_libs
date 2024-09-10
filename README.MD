@@ -1,6 +1,6 @@
 # Sensor library for RPi OS
 
-This repo is supposed to be cloned to `pythonx.xx/site-packages` and then can be normally and globally imported and used.
+The `rpi.py` and `sensors` folder is supposed to be copied to `pythonx.xx/site-packages` and then can be normally and globally imported and used.
 
 The repo has functions for:
  - Digital output
@@ -18,3 +18,29 @@ The repo has functions for:
 # Usage
 
 `import rpi` and then proceed to use any function that suits the need.
+
+# Screenshots
+
+### Oled Display (Normal and Inverted)
+
+<img src=assets/oled.jpg>
+<img src="assets/oled inverted.jpg">
+
+<br>
+
+### PWM (Brightness Control):
+
+<img src="assets/PWM (brightness control).gif">
+
+<br>
+
+### Push Button:
+
+<img src=assets/btn.gif>
+
+<br>
+
+### Servo Motor:
+
+<img src=assets/servo.gif>
+
